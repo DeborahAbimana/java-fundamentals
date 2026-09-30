@@ -1,11 +1,14 @@
 package java_methods;
 
-public class DriveMe {
-    
+public class DriveMe extends Vehicle{
+    double distanceInMiles;
 
     public static void main(String[] args) {
-
-        
+     DriveMe ride=new DriveMe();
+        ride.vehicleType="Car";
+        ride.driverName="Deborah";
+        ride.distanceInMiles=12.0;
+        ride.startRide();
         double distanceInMiles = 12.0;
         int timeOfDay = 18;
         String weatherCondition = "Rain";
