@@ -1,9 +1,11 @@
 package java_methods;
 
-public class CafePOS {
+public class CafePOS extends Cafe{
 
     public static void main(String[] args) {
-
+CafePOS cafe=new CafePOS();
+cafe.cafeName="Deborah's Cafe";
+cafe.openCafe();
         String customerName = "Alex";
         double coffeePrice = 4.50;
         int quantity = 4;
